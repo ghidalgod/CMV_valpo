@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^td\.cmvalparaiso\.cl$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.td\.cmvalparaiso\.cl$
+RewriteRule ^/?$ "https\:\/\/www\.td\.cmvalparaiso\.cl\/index\.php\/" [R=301,L]

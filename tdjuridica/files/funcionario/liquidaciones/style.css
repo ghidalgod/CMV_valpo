@@ -1,0 +1,126 @@
+p, table {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor-parrafo {
+    width: 65%;
+}
+
+p {
+    margin: 0;
+    font-size: 12px;
+}
+
+img {
+    width: 15rem;
+    float: right;
+    margin-top: -4rem;
+}
+
+h5 {
+    text-decoration: underline;
+    /*margin: 4rem auto;*/
+    /*width: 18rem;*/
+    text-align: center;
+}
+
+h6 {
+	text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-size: 11px;
+}
+
+tr {
+    border-right: 1px solid #000;
+}
+
+td {
+    padding: 0.5rem;
+    border: 0px;
+}
+
+.con-borde {
+    border: 1px solid black;
+}
+
+td p {
+    padding: 0.5rem;
+}
+
+.descripcion {
+    width: 70%;
+}
+
+.valor {
+    width: 30%;
+}
+
+.borde-modificado {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.borde-izquierdo {
+    border-left: 1px solid #000;
+    text-align: right;
+}
+
+#tabla-total-haberes {
+	width: 50%;
+}
+
+.negrita {
+	font-weight: bold;
+}
+
+#tabla-total-haberes {
+	margin-left: 0;
+	margin-top: 10px;
+	float: right;
+}
+
+.tabla-total-descuentos {
+	margin-right: 0;
+	margin-bottom: 7px;
+	width: 35%;
+}
+
+#tabla-subtotal-legal {
+	margin-top: -26px	
+}
+
+#tabla-total-haberes tr td:nth-child(2), .tabla-total-descuentos tr td:nth-child(2) {
+    text-align: right;
+}
+
+#firma {
+	width: 30%;
+	float: right;
+	margin-top: 10rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+#footer {
+	border: none;
+}
+
+#parrafo-certifico {
+	font-size: 13px;
+}
+
+#contenedor-tabla-haberes {
+	width: 50%;
+	float: left;
+}
+
+#contenedor-tabla-descuentos {
+	width: 50%;
+	float: left;
+}
